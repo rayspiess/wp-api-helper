@@ -5,7 +5,7 @@ var WPAPI = require('wpapi');
 function WPAPIHELPER() {
 
     this.hello = function () {
-        console.log('hello mars!');
+        console.log('hello mars! 2');
     }
 }
 
