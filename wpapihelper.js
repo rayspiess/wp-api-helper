@@ -1,4 +1,7 @@
 
+var WPAPI = require('wpapi');
+
+
 function WPAPIHELPER() {
 
     this.hello = function () {

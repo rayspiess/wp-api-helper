@@ -15,5 +15,8 @@
     "name": "Ray Spiess",
     "url": "http:rayspiess.com"
   },
-  "license": "MIT"
+  "license": "MIT", 
+  "dependencies": {
+    "wpapi": "^6.5.0"
+  }
 }
