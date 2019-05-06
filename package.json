@@ -1,6 +1,6 @@
 {
   "name": "wp-api-helper",
-  "version": "1.2",
+  "version": "1.2.1",
   "description": "Helper for WP API",
   "main": "wpapihelper.js",
   "repository": {

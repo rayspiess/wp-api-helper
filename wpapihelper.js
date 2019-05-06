@@ -307,7 +307,7 @@ this.getImagePosts = function () {
 var thisDoc = this;
 
 Promise.all([firstThingAsync, secondThingAsync])
-.then(function (results) {
+.then(function (results) {1.3
     // do something with result1 and result2
     // available as results[0] and results[1] respectively
 })
