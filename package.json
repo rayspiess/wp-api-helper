@@ -1,6 +1,6 @@
 {
   "name": "wp-api-helper",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "WIP/SANDBOX - Helper for WP API / HTML Email",
   "main": "wpapihelper.js",
   "repository": {
