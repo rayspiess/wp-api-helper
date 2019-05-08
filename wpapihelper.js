@@ -4,20 +4,20 @@ var WPAPI = require('wpapi');
 var wpapi = new WPAPI({
     // SUBSCRIBER READ ONLY INFO 
     // endpoint: 'http://localhost:63756/wp-json',
-    // endpoint: '/wp-json',
+     endpoint: '/wp-json',
     // endpoint: 'https://it.wisc.edu/wp-json',
  
   //   endpoint: 'https://wwwtest.doitnet.doit.wisc.edu/wp-json',
-     endpoint: 'https://doitnet.doit.wisc.edu/wp-json',
+    // endpoint: 'https://doitnet.doit.wisc.edu/wp-json',
      // username: 'wpapisubscriber',
      // password: 'XfK#%GO#!$$E2L1z!3dHPDz3'
  });
 
-function WPAPIHELPER(endpointurl) {
+function WPAPIHELPER(endpoint) {
 
     var endPoint = endpoint;
     var wp = new WPAPI({
-        endpoint: endpointurl,
+        endpoint: endPoint,
      });
 
     this.hello = function () {
