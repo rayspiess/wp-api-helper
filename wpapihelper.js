@@ -1,11 +1,11 @@
 
 var WPAPI = require('wpapi');
 
-var wp = new WPAPI({
+var wpapi = new WPAPI({
     // SUBSCRIBER READ ONLY INFO 
     // endpoint: 'http://localhost:63756/wp-json',
-    // endpoint: '/wp-json',
-     endpoint: 'https://it.wisc.edu/wp-json',
+     endpoint: '/wp-json',
+    // endpoint: 'https://it.wisc.edu/wp-json',
  
   //   endpoint: 'https://wwwtest.doitnet.doit.wisc.edu/wp-json',
     // endpoint: 'https://doitnet.doit.wisc.edu/wp-json',
@@ -13,7 +13,12 @@ var wp = new WPAPI({
      // password: 'XfK#%GO#!$$E2L1z!3dHPDz3'
  });
 
-function WPAPIHELPER() {
+function WPAPIHELPER(endpointurl) {
+
+    var endPoint = endpoint;
+    var wp = new WPAPI({
+        endpoint: endpointurl,
+     });
 
     this.hello = function () {
         console.log('hello mars! 2');
