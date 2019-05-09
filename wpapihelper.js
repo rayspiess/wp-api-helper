@@ -13,11 +13,17 @@ var wpapi = new WPAPI({
      // password: 'XfK#%GO#!$$E2L1z!3dHPDz3'
  });
 
-function WPAPIHELPER(endpoint) {
+function WPAPIHELPER(endpoint, username, password) {
 
-    var endPoint = endpoint;
+    let endPoint = endpoint;
+    let userName = username;
+    let passWord = password;
+
+    
     var wp = new WPAPI({
         endpoint: endPoint,
+        username: userName,
+        password: passWord
      });
 
     this.hello = function () {
